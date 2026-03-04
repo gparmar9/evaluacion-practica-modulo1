@@ -1,0 +1,14 @@
+name: Workflow Manual
+on:
+  workflow_dispatch:
+    inputs:
+      nombre:
+        description: 'Tu nombre y apellidos'
+        required: true
+        default: 'Alumno'
+jobs:
+  saludo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Imprimir el nombre y apellidos por consola
+        run: echo "Tu nombre completo: ${{ github.event.inputs.nombre }}!"
