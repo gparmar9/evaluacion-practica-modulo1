@@ -1,0 +1,17 @@
+*   810ac6c Resolución del conflicto entre funciones suma y resta en operations.py
+|\  
+| *   a7617ee Merge pull request #3 from gparmar9/feature/suma
+| |\  
+| | * 30991ec Creación de función suma
+| |/  
+* / 81decf1 Creación de función resta
+|/  
+*   fd23a45 Merge pull request #2 from gparmar9/feature/gitignore
+|\  
+| * 23bb6ad Creación del archivo .gitignore y sus evidencias correspondientes
+|/  
+*   8f036aa Merge pull request #1 from gparmar9/feature/evidencias
+|\  
+| * ecbf017 Creación de evidencias de protección de rama main
+|/  
+* 760a95b Creación del repositorio local y README.md
