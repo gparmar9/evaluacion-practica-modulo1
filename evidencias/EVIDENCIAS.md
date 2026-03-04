@@ -7,3 +7,5 @@ Para proteger la rama main se ha creado una regla de protección para la rama co
 
 
 Es recomendable proteger la rama principal en un proyecto real para evitar un push directo que pueda afectar a la versión de producción, saltarse la revisión, crear bugs entre otras cosas que afecten a la versión final del código. 
+
+Se ha añadido .gitignore para ignorar ficheros con la extensión .log y el contenido de la carpeta __pycache__, esto suelen ser archivos de depuración que se generan cuando se ejecuta código.
